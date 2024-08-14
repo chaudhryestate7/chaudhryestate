@@ -1,0 +1,38 @@
+.team-details img {
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.team-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  text-align: center;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+
+.ceo-words {
+  margin-top: 2rem;
+}
+
+.ceo-img {
+  width: 150rem;
+  height: 30rem;
+  border-radius: 0;
+  object-fit: cover;
+}
+
+.ceo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  /* flex-wrap: wrap; */
+  /* flex-direction: row; */
+}
+.ceo-words {
+  width: 100%;
+  text-align: center;
+}

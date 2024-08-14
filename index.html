@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chaudhry Estate</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--------------------------------------------- navbar-------------------------------------- -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          Realtors <i class="ri-home-2-fill"></i>
+        </a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="ri-home-2-line"></i>
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#popular" class="nav__link">
+                <i class="ri-building-line"></i>
+                <span>Residencies</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#value" class="nav__link">
+                <i class="ri-award-fill"></i>
+                <span>Value</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="employes.html" class="nav__link">
+                <i class="ri-award-fill"></i>
+                <span>Team</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="ri-phone-line"></i>
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- change theme color -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <a href="contact.html" target="_blank" class="button nav__button">
+          Subscribe
+        </a>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main class="main">
+      <!-- -----------------------------------Home------------------------------------------ -->
+
+      <div class="hero">
+        <div class="video-container">
+          <div class="video">
+            <video src="images/home.mp4" autoplay loop muted></video>
+            <div class="overlay"></div>
+          </div>
+          <div class="on-overlay">
+            <div class="logo">
+              <img src="images/logo.png" />
+            </div>
+            <div class="hero-content">
+              <p>Discover Your Dream Home</p>
+              <a href="login.html" class="Btn"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- -----------------------------------Popular------------------------------------------ -->
+      <section class="popular section" id="popular">
+        <div class="container">
+          <span class="section__subtitle">Best choice</span>
+          <h2 class="section__title">Popular Residencies <span>.</span></h2>
+
+          <div class="popular__container swiper">
+            <div class="swiper-wrapper">
+              <article class="popular__card swiper-slide">
+                <img src="images/home1.jpg" alt="" class="popular__img" />
+
+                <div class="popular__data">
+                  <h2 class="popular__price"><span>PKR</span> 20,000,000</h2>
+                  <h3 class="popular__title">Karachi, Bharia housing</h3>
+                  <p class="popular__description">
+                    5 Bedrooms with open kitchen. Fully furnished, recently
+                    painted, and all wooden. Small pool in the garden to give
+                    the house an asthetic look.
+                  </p>
+                </div>
+                <a
+                  href="house-1.html"
+                  target="_blank"
+                  class="button popular__button"
+                  >View more</a
+                >
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <img src="images/r1.webp" alt="" class="popular__img" />
+
+                <div class="popular__data">
+                  <h2 class="popular__price"><span>PKR</span> 90,000,000</h2>
+                  <h3 class="popular__title">Karachi, Bharia housing</h3>
+                  <p class="popular__description">
+                    5 Bedrooms with open kitchen. Fully furnished, recently
+                    painted, and all wooden. Small pool in the garden to give
+                    the house an asthetic look.
+                  </p>
+                </div>
+                <a
+                  href="house-2.html"
+                  target="_blank"
+                  class="button popular__button"
+                  >View more</a
+                >
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <img src="images/r2.webp" alt="" class="popular__img" />
+
+                <div class="popular__data">
+                  <h2 class="popular__price"><span>PKR</span> 5,000,000</h2>
+                  <h3 class="popular__title">Karachi, Bharia housing</h3>
+                  <p class="popular__description">
+                    5 Bedrooms with open kitchen. Fully furnished, recently
+                    painted, and all wooden. Small pool in the garden to give
+                    the house an asthetic look.
+                  </p>
+                </div>
+                <a href="#" class="button popular__button">View more</a>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <img src="images/r3.webp" alt="" class="popular__img" />
+
+                <div class="popular__data">
+                  <h2 class="popular__price"><span>PKR</span> 80,000,000</h2>
+                  <h3 class="popular__title">Karachi, Bharia housing</h3>
+                  <p class="popular__description">
+                    5 Bedrooms with open kitchen. Fully furnished, recently
+                    painted, and all wooden. Small pool in the garden to give
+                    the house an asthetic look.
+                  </p>
+                </div>
+                <a href="#" class="button popular__button">View more</a>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <img src="images/r4.webp" alt="" class="popular__img" />
+
+                <div class="popular__data">
+                  <h2 class="popular__price"><span>PKR</span> 30,000,000</h2>
+                  <h3 class="popular__title">Karachi, Bharia housing</h3>
+                  <p class="popular__description">
+                    5 Bedrooms with open kitchen. Fully furnished, recently
+                    painted, and all wooden. Small pool in the garden to give
+                    the house an asthetic look.
+                  </p>
+                </div>
+                <a href="#" class="button popular__button">View more</a>
+              </article>
+
+              <article class="popular__card swiper-slide">
+                <img src="images/r5.jpg" alt="" class="popular__img" />
+
+                <div class="popular__data">
+                  <h2 class="popular__price"><span>PKR</span> 10,000,000</h2>
+                  <h3 class="popular__title">Karachi, Bharia housing</h3>
+                  <p class="popular__description">
+                    5 Bedrooms with open kitchen. Fully furnished, recently
+                    painted, and all wooden. Small pool in the garden to give
+                    the house an asthetic look.
+                  </p>
+                </div>
+                <a href="#" class="button popular__button">View more</a>
+              </article>
+            </div>
+
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- -----------------------------------Value------------------------------------------ -->
+      <section class="value section" id="value">
+        <div class="value__container container grid">
+          <div class="value__images">
+            <div class="value__orbe"></div>
+
+            <div class="value__img">
+              <img src="images/value1.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="value__content">
+            <div class="value__data">
+              <span class="section__subtitle">Our Value</span>
+              <h2 class="section__title">
+                Value We Serve To You<span>.</span>
+              </h2>
+              <p class="value__description">
+                We are always eager to help by providing the best services for
+                you. We believe that a good place to live can make your life
+                better.
+              </p>
+            </div>
+
+            <!-- accordion started -->
+            <div class="value__accordion">
+              <div class="value__accordion-item">
+                <header class="value__accordion-header">
+                  <i class="ri-shield-cross-fill value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">
+                    Best negiotiable price rates in the market.
+                  </h3>
+                  <div class="value__accordion-arrow">
+                    <i class="ri-arrow-down-s-fill"></i>
+                  </div>
+                </header>
+                <div class="value__accordion-content">
+                  <p class="value__accordion-description">
+                    The price we provide is the best for you, Quality residence
+                    with affordable prices.
+                  </p>
+                </div>
+              </div>
+
+              <div class="value__accordion-item">
+                <header class="value__accordion-header">
+                  <iconify-icon
+                    icon="ph:x-square-fill"
+                    class="value__accordion-icon"
+                  ></iconify-icon>
+                  <h3 class="value__accordion-title">
+                    Prevent unstable prices
+                  </h3>
+                  <div class="value__accordion-arrow">
+                    <i class="ri-arrow-down-s-fill"></i>
+                  </div>
+                </header>
+                <div class="value__accordion-content">
+                  <p class="value__accordion-description">
+                    We have quiet the same stagnant price rates and these rates
+                    donot fluctuate as much. We try to keep the prices as
+                    reasonable as possible.
+                  </p>
+                </div>
+              </div>
+
+              <div class="value__accordion-item">
+                <header class="value__accordion-header">
+                  <i class="ri-bar-chart-box-fill value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">
+                    Best prices on the market
+                  </h3>
+                  <div class="value__accordion-arrow">
+                    <i class="ri-arrow-down-s-fill"></i>
+                  </div>
+                </header>
+                <div class="value__accordion-content">
+                  <p class="value__accordion-description">
+                    Our price rates are well below the market prices. We do our
+                    best to provide the best rates to our clients.
+                  </p>
+                </div>
+              </div>
+
+              <div class="value__accordion-item">
+                <header class="value__accordion-header">
+                  <i class="ri-checkbox-fill value__accordion-icon"></i>
+                  <h3 class="value__accordion-title">Security of your data</h3>
+                  <div class="value__accordion-arrow">
+                    <i class="ri-arrow-down-s-fill"></i>
+                  </div>
+                </header>
+                <div class="value__accordion-content">
+                  <p class="value__accordion-description">
+                    Clients data is well secured in our company. We never ask
+                    for clients sensitive data. Our company have regular
+                    security audits. We also offer the strong customer support.
+                    Your data is always our secret.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <a
+              href="certificates.html"
+              target="_blank"
+              class="button value__button"
+            >
+              Our certificates
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- -----------------------------------contact------------------------------------------ -->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__images">
+            <div class="contact__orbe"></div>
+
+            <div class="contact__img">
+              <img src="images/contact1.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <div class="contact__data">
+              <span class="section__subtitle">Contact Us</span>
+              <h2 class="section__title">
+                Guidance to your residence<span>.</span>
+              </h2>
+              <p class="contact__description">
+                Problem in finding your dream house? Need a guide in buying your
+                first home? or need a consultation on residential issues? Just
+                contact us.
+              </p>
+            </div>
+
+            <div class="contact__card">
+              <div class="contact__card-box">
+                <div class="contact__card-info">
+                  <i class="ri-phone-fill"></i>
+                  <div>
+                    <h3 class="contact__card-title">Call</h3>
+                    <p class="contact__card-description">03353036639</p>
+                  </div>
+                </div>
+
+                <button class="button contact__card-button">Call now</button>
+              </div>
+
+              <div class="contact__card-box">
+                <div class="contact__card-info">
+                  <i class="ri-message-fill"></i>
+                  <div>
+                    <h3 class="contact__card-title">Chat</h3>
+                    <p class="contact__card-description">03353036639</p>
+                  </div>
+                </div>
+
+                <button class="button contact__card-button">Chat Now</button>
+              </div>
+
+              <div class="contact__card-box">
+                <div class="contact__card-info">
+                  <i class="ri-mail-send-fill"></i>
+                  <div>
+                    <h3 class="contact__card-title">Send us a mail</h3>
+                    <p class="contact__card-description">
+                      <!-- hamzashakeel <span>durrani</span> <span>77@gmail.com</span>  -->
+                    </p>
+                  </div>
+                </div>
+
+                <button class="button contact__card-button">
+                  <a href="contact.html">Mail Us </a>
+                </button>
+              </div>
+
+              <div class="contact__card-box">
+                <div class="contact__card-info">
+                  <i class="ri-mail-unread-fill"></i>
+                  <div>
+                    <h3 class="contact__card-title">Message</h3>
+                    <p class="contact__card-description">03353036639</p>
+                  </div>
+                </div>
+
+                <button class="button contact__card-button">
+                  <a href="contact.html"> Message Now </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- -----------------------------------Reviews------------------------------------------ -->
+
+      <section class="view__section section" id="views-section">
+        <div class="container">
+          <span class="section__subtitle">Testimonials</span>
+          <h2 class="section__title">Our clients reviews<span>.</span></h2>
+          <div class="reviews-wrapper">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="testimonialbox">
+                    <img src="images/right-quote.png" class="quote" alt="" />
+                    <div class="reviews-content">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Incidunt quasi sit quisquam iste reiciendis provident
+                        laudantium ipsum praesentium doloremque aut?
+                      </p>
+                      <div class="details">
+                        <div class="imgbox">
+                          <img src="images/face2.jpg" alt="" />
+                        </div>
+                        <h3>Client</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="testimonialbox">
+                    <img src="images/right-quote.png" class="quote" alt="" />
+                    <div class="reviews-content">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Incidunt quasi sit quisquam iste reiciendis provident
+                        laudantium ipsum praesentium doloremque aut?
+                      </p>
+                      <div class="details">
+                        <div class="imgbox">
+                          <img src="images/face2.jpg" alt="" />
+                        </div>
+                        <h3>Client</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="testimonialbox">
+                    <img src="images/right-quote.png" class="quote" alt="" />
+                    <div class="reviews-content">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Incidunt quasi sit quisquam iste reiciendis provident
+                        laudantium ipsum praesentium doloremque aut?
+                      </p>
+                      <div class="details">
+                        <div class="imgbox">
+                          <img src="images/face2.jpg" alt="" />
+                        </div>
+                        <h3>Client</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="testimonialbox">
+                    <img src="images/right-quote.png" class="quote" alt="" />
+                    <div class="reviews-content">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Incidunt quasi sit quisquam iste reiciendis provident
+                        laudantium ipsum praesentium doloremque aut?
+                      </p>
+                      <div class="details">
+                        <div class="imgbox">
+                          <img src="images/face2.jpg" alt="" />
+                        </div>
+                        <h3>Client</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- -----------------------------------Subscribe------------------------------------------ -->
+      <section class="subscribe section">
+        <div class="subscribe__container container">
+          <h1 class="subscribe__title">Get Started With Realtors</h1>
+          <p class="subscribe__description">
+            Subscribe and find super attractive price quotes and discounts from
+            our team, Determine your residence immediately
+          </p>
+          <a
+            href="contact.html"
+            target="_blank"
+            class="button button__subscribe"
+          >
+            Get Started
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- -----------------------------------Footer------------------------------------------ -->
+
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo">
+            Realtors <i class="ri-home-2-fill"></i>
+          </a>
+          <p class="footer__description">
+            Our vision is to provide our people <br />
+            the best place to live.
+          </p>
+        </div>
+
+        <div class="footer__content">
+          <div>
+            <h3 class="footer__title">About</h3>
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Features</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">News & Blog</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Company</h3>
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">How we work?</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Capital</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Security</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Support</h3>
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">FAQs</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Support Center</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Follow Us</h3>
+            <ul class="footer__social">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-facebook-circle-fill"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-instagram-fill"></i>
+              </a>
+              <a
+                href="https://www.zameen.com/Homes/Karachi-2-1.html?agent_id=162470&types=all&property_status=available"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <img src="images/zameen.png" class="zameen" alt="" />
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__info container">
+        <span class="footer__copy"> &#169; Realtors. All rights reserved </span>
+
+        <div class="footer__privacy">
+          <a href="#">Terms & Agreements</a>
+          <a href="#">Privicy Policy</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- show scroll up -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-double-line"></i>
+    </a>
+
+    <script src="scrollreveal.min.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
