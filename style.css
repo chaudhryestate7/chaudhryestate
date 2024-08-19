@@ -145,12 +145,13 @@ button {
   display: inline-block;
   background: linear-gradient(101deg, hsl(228, 66%, 53%), hsl(228, 66%, 47%));
   color: #fff;
-  padding: 14px 28px;
+  padding: 7px 14px;
   border-radius: 0.5rem;
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   cursor: pointer;
   transition: 0.3s;
+  margin-left: 2rem;
 }
 
 /*-------------------------------------------- Header and nav------------------------------------------------  */
@@ -315,6 +316,7 @@ body.dark-theme {
 
 .on-overlay .logo img {
   width: 10rem;
+  border-radius: 20%;
 }
 
 .hero-content {
@@ -322,7 +324,7 @@ body.dark-theme {
 }
 
 .hero-content p {
-  font-size: 3rem;
+  font-size: 2rem;
   /* font-weight: bold; */
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -331,7 +333,7 @@ body.dark-theme {
 }
 .hero-content .Btn {
   width: 20rem;
-  margin-left: 25rem;
+  /* margin-left: 25rem; */
 }
 /* ------------------------------------Popular------------------------------------------------ */
 
@@ -914,6 +916,12 @@ body.dark-theme {
   bottom: 8rem;
 }
 
+.logo-img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 20%;
+}
+
 /* ----------------------------------------------Breakpoints--------------------------- */
 /* for small devices */
 
@@ -1198,6 +1206,14 @@ body.dark-theme {
   .show-scroll {
     bottom: 3rem;
     right: 3rem;
+  }
+
+  .on-overlay .logo img {
+    width: 15rem;
+    border-radius: 20%;
+  }
+  .hero-content p {
+    font-size: 5rem;
   }
 }
 
