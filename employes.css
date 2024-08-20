@@ -1,6 +1,9 @@
 .team-details img {
   width: 10rem;
+  height: 10rem;
   border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
 }
 
 .team-container {
@@ -18,8 +21,8 @@
 }
 
 .ceo-img {
-  width: 150rem;
-  height: 30rem;
+  width: 120rem;
+  /* height: 50%; */
   border-radius: 0;
   object-fit: cover;
 }
@@ -29,7 +32,7 @@
   align-items: center;
   justify-content: center;
   gap: 5rem;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* flex-direction: row; */
 }
 .ceo-words {
@@ -39,9 +42,15 @@
 
 @media (max-width: 450px) {
   .ceo-img {
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     border-radius: 50%;
     margin-bottom: -5rem;
+    object-position: top;
+    object-fit: cover;
+  }
+
+  .ceo-container {
+    flex-direction: column;
   }
 }
