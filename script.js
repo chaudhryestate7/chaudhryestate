@@ -87,6 +87,8 @@ const scrollUp = () => {
 };
 window.addEventListener("scroll", scrollUp);
 
+// ------------------------------------------------------events-----------------------------------------------
+
 //------------------------------------------------Reviews---------------------------------------
 var swiper = new Swiper(".mySwiper", {
   effect: "coverflow",

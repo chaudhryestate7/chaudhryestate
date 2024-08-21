@@ -27,6 +27,13 @@
   object-fit: cover;
 }
 
+.md-img {
+  width: 120rem;
+  /* height: 50%; */
+  border-radius: 0;
+  object-fit: cover;
+}
+
 .ceo-container {
   display: flex;
   align-items: center;
@@ -43,6 +50,15 @@
 @media (max-width: 450px) {
   .ceo-img {
     width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin-bottom: -5rem;
+    object-position: top;
+    object-fit: cover;
+  }
+
+  .md-img {
+    width: 17rem;
     height: 20rem;
     border-radius: 50%;
     margin-bottom: -5rem;

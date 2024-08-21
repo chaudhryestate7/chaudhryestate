@@ -509,6 +509,48 @@ body.dark-theme {
   transform: rotate(-180deg);
 }
 
+/* ------------------------------------Events------------------------------------------------ */
+.events-slider {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.slider {
+  position: relative;
+  transition: all ease 0.2s;
+}
+.slider img {
+  width: 30rem;
+  object-fit: cover;
+}
+
+.events-details {
+  display: none;
+}
+
+.slider:hover {
+  transform: scale(1.05);
+}
+
+/* .slider:hover .events-details {
+    position: absolute;
+    bottom: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 2rem;
+  } */
+
+.events-data {
+  margin-bottom: 3rem;
+}
+
 /* ------------------------------------Contact------------------------------------------------ */
 
 .contact__container {
