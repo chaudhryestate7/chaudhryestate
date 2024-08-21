@@ -512,7 +512,7 @@ body.dark-theme {
 /* ------------------------------------Events------------------------------------------------ */
 .events-slider {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 
@@ -1256,6 +1256,12 @@ body.dark-theme {
   }
   .hero-content p {
     font-size: 5rem;
+  }
+
+  .events-slider {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
   }
 }
 
