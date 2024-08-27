@@ -343,10 +343,10 @@ body.dark-theme {
   text-align: center;
   margin: auto;
   position: absolute;
-  top: 30rem;
+  top: 28rem;
   left: 4rem;
   border: 2px solid gray;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 10%;
   background-color: black;
 }
