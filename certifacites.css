@@ -127,8 +127,9 @@ body {
 }
 
 .c-design {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 1000px) {
