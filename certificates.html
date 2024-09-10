@@ -15,31 +15,62 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="contact.css" />
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="certifacites.css" />
     <title>Certificates</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <ul>
-          <li>
-            <a href="index.html" class="logo">
-              <div class="images">
-                <h2>
-                  Chaudhry Estate & Builders<span>.</span>
-                  <i class="ri-home-2-fill"></i>
-                </h2>
-              </div>
-            </a>
-          </li>
-          <li>
-            <a href="index.html" class="nav__link">Home</a>
-          </li>
-          <i class="ri-moon-line change-theme" id="theme-button"></i>
-        </ul>
-      </div>
+    <!--------------------------------------------- navbar-------------------------------------- -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav-logo">
+          <img src="images/new-logo.jpg" alt="" />
+          <a href="index.html" class="nav__logo">Chaudhry Estate & Builders</a>
+        </div>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active-link">
+                <i class="ri-home-2-line"></i>
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#popular" class="nav__link">
+                <i class="ri-building-line"></i>
+                <span>Residencies</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#value" class="nav__link">
+                <i class="ri-award-fill"></i>
+                <span>Value</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="employes.html" class="nav__link">
+                <i class="ri-team-fill"></i>
+                <span>Team</span>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#contact" class="nav__link">
+                <i class="ri-phone-line"></i>
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- change theme color -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <a href="contact.html" target="_blank" class="button nav__button">
+          Subscribe
+        </a>
+      </nav>
     </header>
 
     <div class="value__data" style="margin-bottom: 6rem">
@@ -119,9 +150,11 @@
         <img src="certificates/c3.jpg" />
       </div>
     </div>
+
     <div class="shadow"></div>
 
     <script src="certificate.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

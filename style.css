@@ -443,6 +443,25 @@ body.dark-theme {
   margin-top: 1rem;
 }
 
+/* ------------------------------------companies------------------------------------------------ */
+.companies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+.companies-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.companies-wrapper img {
+  width: 6rem;
+}
+
 /* ------------------------------------Popular------------------------------------------------ */
 
 .popular__container {
@@ -1076,7 +1095,7 @@ body.dark-theme {
 
 .logo-img {
   width: 10rem;
-  height: 5rem;
+  height: 8rem;
   border-radius: 5%;
 }
 
@@ -1400,6 +1419,13 @@ body.dark-theme {
     gap: 3rem;
     padding: 3rem;
     width: 100%;
+  }
+
+  .companies-wrapper {
+    gap: 5rem;
+  }
+  .companies-wrapper img {
+    width: 10rem;
   }
 }
 
