@@ -715,6 +715,8 @@ body.dark-theme {
 .contact__card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
   gap: 1.25rem 0.75rem;
 }
 .contact__card-box {
