@@ -535,6 +535,14 @@ body.dark-theme {
   margin-top: 1rem;
   /* margin-left: 5rem; */
 }
+.popular__button2 {
+  font-size: var(--smaller-font-size);
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+}
 
 /* ------------------------------------Value------------------------------------------------ */
 
