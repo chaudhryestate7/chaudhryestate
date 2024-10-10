@@ -759,14 +759,11 @@ body.dark-theme {
   width: 100%;
   border-radius: 0.25rem;
   background: var(--first-color-lighten);
-  color: var(--first-color);
+  color: #fff !important;
   font-weight: var(--font-semi-bold);
   box-shadow: none;
 }
-.contact__card-button:hover {
-  background-color: var(--first-color);
-  color: #fff;
-}
+
 .contact__card-box:hover {
   box-shadow: 0 8px 24px hsla(228, 66%, 45%, 0.1);
 }
@@ -777,6 +774,10 @@ body.dark-theme {
 }
 .contact__card-button a:hover {
   color: #fff;
+}
+
+.longer-contact_card {
+  width: 18rem;
 }
 
 /* ------------------------------------reviews------------------------------------------------ */
@@ -1126,7 +1127,7 @@ body.dark-theme {
   }
   .contact__card {
     grid-template-columns: repeat(1, 180px);
-    justify-content: center;
+    justify-content: left;
   }
 }
 

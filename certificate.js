@@ -80,3 +80,18 @@ themeButton.addEventListener("click", () => {
   themeButton.classList.toggle("ri-sun-line");
   themeButton.classList.toggle("ri-moon-line");
 });
+
+// automatic color change
+
+document.addEventListener("DOMContentLoaded", () => {
+  const body = document.body;
+
+  // Add the dark-theme class by default
+  body.classList.add("dark-theme");
+
+  // Dark mode toggle functionality (optional)
+  const themeButton = document.getElementById("theme-button");
+  themeButton.addEventListener("click", () => {
+    body.classList.toggle("dark-theme");
+  });
+});
